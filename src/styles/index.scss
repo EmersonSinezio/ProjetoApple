@@ -1,0 +1,82 @@
+$color1: #34353a;
+$color2: #2e2f34;
+$colorTxt: #ffffff;
+*,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: $color1;
+  color: $colorTxt;
+}
+.Header {
+  height: 10vh;
+  border-bottom: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.menu {
+  display: flex;
+}
+.menu li {
+  list-style: none;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  border-bottom: 1px dashed transparent;
+  &:hover {
+    transition: 0.5s;
+    border-color: gray;
+  }
+}
+.itemPresentation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.itemPresentation div {
+  width: 45%;
+  height: 60vh;
+  margin: 10vh 2vw;
+  // border: 1px solid gray;
+}
+.itemPresentation div,
+.showMore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#i_cover {
+  height: 50vh;
+}
+.desc {
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+.desc span {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+.showMore {
+  position: absolute;
+  bottom: -5px;
+  font-size: 2rem;
+  animation: infinite 2s pulse;
+}
+@keyframes pulse {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
