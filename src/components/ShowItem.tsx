@@ -3,10 +3,10 @@ import { AiOutlineDownCircle } from "react-icons/ai";
 function ShowItem() {
   return (
     <div className="itemPresentation">
-      <div>
+      <div id="presentation_left">
         <img src={cover} alt="img_cover" width={250} id="i_cover" />
       </div>
-      <div className="desc">
+      <div className="desc" id="presentation_right">
         <p>Iphone 13</p>
         <span>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum eius

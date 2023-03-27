@@ -1,14 +1,25 @@
-import { AiOutlineApple } from "react-icons/ai";
+import {
+  AiOutlineApple,
+  AiOutlineGithub,
+  AiOutlineLinkedin,
+} from "react-icons/ai";
 function Header() {
   return (
     <div className="Header">
       <h3>
-        <AiOutlineApple />
+        <AiOutlineApple className="logo" />
       </h3>
       <ul className="menu">
-        <li>Link</li>
-        <li>Link</li>
-        <li>Link</li>
+        <li>
+          <a href="https://github.com/EmersonSinezio">
+            <AiOutlineGithub className="icons" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/emerson-sineziio/">
+            <AiOutlineLinkedin className="icons" />
+          </a>
+        </li>
       </ul>
     </div>
   );

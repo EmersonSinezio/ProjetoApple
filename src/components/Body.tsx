@@ -1,4 +1,5 @@
 import Characteristics from "./Characteristics";
+import ChosenProduct from "./ChosenProduct";
 import ShowItem from "./ShowItem";
 
 function Body() {
@@ -6,6 +7,7 @@ function Body() {
     <div className="body">
       <ShowItem />
       <Characteristics />
+      <ChosenProduct />
     </div>
   );
 }
