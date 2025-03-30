@@ -43,3 +43,13 @@ As tecs utilizadas para realizar o projeto:
 ## Autor
 
 - **Emerson Mesquita Sinézio**
+
+<br>
+<br>
+
+# Incompleto falta alguns ajustes:
+
+- Animação home
+- Página sobre
+- Ajuste footer
+- Ajuste header

@@ -6,8 +6,6 @@ function Body() {
   return (
     <div className="body">
       <ShowItem />
-      <Characteristics />
-      <ChosenProduct />
     </div>
   );
 }
