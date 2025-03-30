@@ -1,55 +1,68 @@
-## Projeto Apple
+# 🍏 Projeto Apple - Rebuilt Edition (2025)
 
-## Links
+[![Rebuilt Version](https://img.shields.io/badge/Rebuilt-2025-209CEE?style=flat&logo=react)](https://projeto-apple-sandy.vercel.app/)
+[![Original Version](https://img.shields.io/badge/Original-2023-FF6F00?style=flat)](https://github.com/EmersonSinezio/ProjetoApple)
 
-- Site hospedado na Vercel: https://projeto-apple-sandy.vercel.app/
-- Repositório: https://github.com/EmersonSinezio/ProjetoApple
-  - Em caso de bugs por favor entre em contato. Email: emerson.sineziio@gmail.com
+**Uma jornada de evolução técnica:** Recriando meu primeiro projeto React com 2 anos de experiência a mais
 
-## Tecs
+## 🚀 Visão da Evolução
 
-As tecs utilizadas para realizar o projeto:
+### 2023 vs 2025: Do Primeiro Deploy à Excelência Técnica
 
-- React
-- React-icons
-- Sass
-- Typescript
-
-## Serviços usados:
-
-- Github
-- Vercel
-
-## Inicialização
-
-### 1 - Quando abrir o app será recebido com a Home page
-
-![Homepage image](https://github.com/EmersonSinezio/ProjetoApple/blob/main/public/Readme/Homepage.png)
-
-<hr/>
-
-### 2 - Descendo a tela poderá ver as características do produto
-
-![Cart](https://github.com/EmersonSinezio/ProjetoApple/blob/main/public/Readme/Caracter%C3%ADsticas.png)
-
-<hr/>
-
-### 3 - Aqui poderá escolher entre 5 opções diferentes
-
-![AboutPage](https://github.com/EmersonSinezio/ProjetoApple/blob/main/public/Readme/Escolha.png)
-
-<hr/>
-
-## Autor
-
-- **Emerson Mesquita Sinézio**
+|                  | Versão Original (2023) | Rebuild (2025)                |
+| ---------------- | ---------------------- | ----------------------------- |
+| **Arquitetura**  | Componentes Clássicos  | Atomic Design + Microfrontend |
+| **Estilização**  | Sass Básico            | Tailwind CSS + Framer Motion  |
+| **Roteamento**   | Navegação Básica       | Layout Routes                 |
+| **Animations**   | CSS Transitions        | Spring Physics (Framer)       |
+| **Complexidade** | 3 Páginas Estáticas    | 5 Páginas Dinâmicas           |
 
 <br>
-<br>
 
-# Incompleto falta alguns ajustes:
+## 🛠️ Stack Técnica Atualizada
 
-- Animação home
-- Página sobre
-- Ajuste footer
-- Ajuste header
+**Core:**
+
+- React 18 + TypeScript 5
+- React Router 6
+- Vite 5
+
+**Estilização:**
+
+- Tailwind CSS 3
+- Headless UI
+- Framer Motion 10
+
+**Qualidade:**
+
+- ESLint + Prettier
+- Cypress 12
+- Vitest + Testing Library
+
+**Infra:**
+
+- Vercel Serverless
+- GitHub Actions
+
+## 🖥️ Executando Localmente
+
+````bash
+git clone https://github.com/EmersonSinezio/ProjetoApple-Rebuilt
+cd ProjetoApple-Rebuilt
+npm install
+npm run dev```
+````
+
+## 📸 Preview da Evolução
+
+| 2023                                       | 2025                                      |
+| ------------------------------------------ | ----------------------------------------- |
+| ![2023 Home](./public/Readme/Homepage.png) | ![2025 Home](./public/Readme/NewHome.png) |
+| Componentes Estáticos                      | Microinterações Animadas                  |
+
+## 📬 Contato & Aprendizado Contínuo
+
+**Emerson Mesquita Sinézio**  
+[![LinkedIn](https://img.shields.io/badge/-Connect_Professionally-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/emerson-sineziio)
+
+> "O sucesso não é definitivo, o fracasso não é fatal: o que importa é a coragem de continuar." - Winston Churchill

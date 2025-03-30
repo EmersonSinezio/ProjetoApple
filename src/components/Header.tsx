@@ -16,8 +16,12 @@ function Header() {
           <span className="ml-3 text-xl">Apple</span>
         </Link>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <a className="mr-5 hover:text-white">First Link</a>
-          <a className="mr-5 hover:text-white">Second Link</a>
+          <Link to={"/products"} className="mr-5 hover:text-white">
+            Ver produtos
+          </Link>
+          <Link to={"/about"} className="mr-5 hover:text-white">
+            Sobre
+          </Link>
         </nav>
       </div>
     </header>
