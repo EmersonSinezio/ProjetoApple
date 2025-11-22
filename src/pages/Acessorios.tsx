@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Headphones, BatteryCharging, Shield, Watch, Music, ChevronRight, Plus } from 'lucide-react';
 import { useCart } from '../context/CartContext';
@@ -13,7 +13,7 @@ const CATEGORIES = [
 ];
 
 
-const AccessoryCard = ({ item }) => {
+const AccessoryCard = ({ item }: { item: any }) => {
     const { addToCart } = useCart();
 
     return (

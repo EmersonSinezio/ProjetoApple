@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, ShoppingBag, Trash2, Plus, Minus, ArrowRight } from 'lucide-react';
+import { X, ShoppingBag, Plus, Minus } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { toast } from 'sonner';
 import { formatPrice } from '../utils/formatPrice';
@@ -11,7 +11,7 @@ const CartDrawer: React.FC = () => {
 
 
     const handleCheckout = () => {
-        const body = cart.map(i => `${i.quantity}x ${i.name} - ${i.price}`).join('%0D%0A');
+        // const body = cart.map(i => `${i.quantity}x ${i.name} - ${i.price}`).join('%0D%0A');
         // Caso queira enviar o email descomente a linha abaixo
         //window.location.href = `mailto:loja@exemplo.com?subject=Novo Pedido&body=Gostaria de comprar:%0D%0A${body}`;
         toast.success("Redirecionando para o cliente de email com o resumo do pedido.");
@@ -73,7 +73,7 @@ const CartDrawer: React.FC = () => {
                         <div className="border-t border-gray-100 pt-6 mt-6">
                             <div className="flex justify-between items-center mb-6">
                                 <span className="text-gray-500">Total Estimado</span>
-                                <span className="text-2xl font-bold">{formatPrice(total.toFixed(2))}</span>
+                                <span className="text-2xl font-bold">{formatPrice(total)}</span>
                             </div>
                             <button
                                 onClick={handleCheckout}

@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Zap, Battery, Monitor, ArrowRight } from 'lucide-react';
 import { useCart } from '../context/CartContext';
