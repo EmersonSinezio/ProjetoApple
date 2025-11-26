@@ -20,7 +20,7 @@ const Hero = () => {
                     initial={{ y: 30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.5, duration: 0.8 }}
                     className="text-xl md:text-2xl font-medium text-gray-300 mb-4 tracking-widest uppercase"
                 >
-                    Bem-vindo à Lumina
+                    Bem-vindo à Apple
                 </motion.h2>
                 <motion.h1
                     initial={{ y: 50, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.7, duration: 0.8 }}

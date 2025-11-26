@@ -15,7 +15,7 @@ const Header: React.FC = () => {
         >
             <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
                 <Link to="/" className="text-xl font-semibold tracking-tight hover:opacity-70 transition-opacity">
-                    Lumina
+                    Apple
                 </Link>
                 <nav className="hidden md:flex gap-8 text-sm font-medium text-gray-600">
                     <Link to="/mac" className="hover:text-black transition-colors">Mac</Link>

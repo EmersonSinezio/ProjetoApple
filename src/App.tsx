@@ -141,7 +141,7 @@ export default function App() {
           <CartDrawer />
 
           <footer className="py-12 text-center text-gray-400 text-sm border-t border-gray-100 bg-gray-50">
-            <p>&copy; 2025 Lumina Inc. Design inspirado na Apple.</p>
+            <p>&copy; 2025 Apple Inc. Design inspirado na Apple.</p>
           </footer>
         </div>
       </Router>

@@ -30,13 +30,13 @@ export const CartProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
 
     // Carregar carrinho do localStorage
     useEffect(() => {
-        const savedCart = localStorage.getItem('lumina-cart');
+        const savedCart = localStorage.getItem('apple-cart');
         if (savedCart) setCart(JSON.parse(savedCart));
     }, []);
 
     // Salvar carrinho no localStorage
     useEffect(() => {
-        localStorage.setItem('lumina-cart', JSON.stringify(cart));
+        localStorage.setItem('apple-cart', JSON.stringify(cart));
     }, [cart]);
 
     const addToCart = (product: any) => {
@@ -65,7 +65,7 @@ export const CartProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     };
 
     const cleanCart = () => {
-        localStorage.removeItem('lumina-cart');
+        localStorage.removeItem('apple-cart');
         setCart([]);
     };
 

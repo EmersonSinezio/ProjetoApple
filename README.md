@@ -1,4 +1,4 @@
-# 🍎 Lumina Store - E-commerce Inspirado na Apple
+# 🍎 Apple Store - E-commerce Inspirado na Apple
 
 [![React](https://img.shields.io/badge/React-19.2.0-61DAFB?logo=react)](https://react.dev/) [![TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-3178C6?logo=typescript)](https://www.typescriptlang.org/) [![Vite](https://img.shields.io/badge/Vite-7.2.4-646CFF?logo=vite)](https://vite.dev/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.18-06B6D4?logo=tailwindcss)](https://tailwindcss.com/)
 
@@ -8,11 +8,11 @@ Uma aplicação web moderna e responsiva de e-commerce inspirada no design minim
 
 ## 📸 Preview
 
-<img src="./readme/home.jpg" alt="Página Inicial da Lumina Store" width="800"/>
+<img src="./readme/home.jpg" alt="Página Inicial da Apple Store" width="800"/>
 
 *Página inicial com hero section e categorias de produtos*
 
-<img src="./readme/products.png" alt="Catálogo de Produtos" width="800"/>
+<img src="./readme/products.jpg" alt="Catálogo de Produtos" width="800"/>
 
 *Catálogo de produtos com animações e efeitos hover*
 
